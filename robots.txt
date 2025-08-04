@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://doctorraz.github.io/site/sitemap.xml
+Sitemap: https://doctorRaz.github.io/site/sitemap.xml
