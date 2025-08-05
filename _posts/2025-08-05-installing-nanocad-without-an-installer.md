@@ -1,8 +1,8 @@
 ---
 layout: post
-title: a post with plotly.js
+title: Установка nanoCAD без инсталятора
 date: 2025-08-05 08:04:00
-description: this is what included plotly.js code could look like
+description: как установить нану копированием
 tags: install nanoCAD 
 categories: sample-posts
 chart:
