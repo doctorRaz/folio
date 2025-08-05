@@ -4,6 +4,7 @@ title: St
 date: 2025-08-05 08:04:00
 description: Who
 tags: formatting charts
+categories: sample-posts
 ---
 
 Упростил максимально 
