@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Установка nanoCAD без инсталятора
+title: St
 date: 2025-08-05 08:04:00
-description: как установить нану копированием
+description: Who
 tags: formatting charts
-categories: test
 ---
 
 Упростил максимально 
