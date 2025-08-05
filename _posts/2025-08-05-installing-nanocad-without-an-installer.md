@@ -5,8 +5,6 @@ date: 2025-08-05 08:04:00
 description: как установить нану копированием
 tags: install nanoCAD 
 categories: sample-posts
-chart:
-  plotly: true
 ---
 
 > [!WARNING]
