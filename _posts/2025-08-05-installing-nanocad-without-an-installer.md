@@ -1,8 +1,8 @@
 ---
 layout: post
-title: a post with code
+title: test
 date: 2025-07-15 15:09:00
-description: an example of a blog post with some code
+description: proba
 tags: formatting code
 categories: sample-posts
 featured: true
