@@ -1,0 +1,13 @@
+---
+layout: post
+title: тестовый тест
+date: 2025-08-27 00:20:00
+last_updated: 2025-08-14 04:30:00
+description: this is what included vega lite code could look like
+tags: formatting charts
+categories: sample-posts
+chart:
+  vega_lite: true
+---
+
+Тестовый тест
