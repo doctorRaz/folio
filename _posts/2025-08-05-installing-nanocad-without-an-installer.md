@@ -1,3 +1,14 @@
+---
+layout: post
+title: a post with plotly.js
+date: 2025-08-05 08:04:00
+description: this is what included plotly.js code could look like
+tags: install nanoCAD 
+categories: sample-posts
+chart:
+  plotly: true
+---
+
 > [!WARNING]
 Все ниже написанное Вы повторяете на свой страх и риск\
 Статья ни в коем случае не является призывом к чему бы то ни было, \
