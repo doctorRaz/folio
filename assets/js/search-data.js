@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/site/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-a-post-with-code",
+        
+          title: "a post with code",
+        
+        description: "an example of a blog post with some code",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/site/blog/2025/installing-nanocad-without-an-installer/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
