@@ -1,15 +1,100 @@
 ---
 layout: post
-title: St
-date: 2025-08-05 08:04:00
-description: Who
-tags: formatting charts
+title: a post with code
+date: 2025-07-15 15:09:00
+description: an example of a blog post with some code
+tags: formatting code
 categories: sample-posts
+featured: true
 ---
 
-Упростил максимально 
+This theme implements a built-in Jekyll feature, the use of Rouge, for syntax highlighting.
+It supports more than 100 languages.
+This example is in C++.
+All you have to do is wrap your code in markdown code tags:
 
-Все ниже написанное Вы повторяете на свой страх и риск
-Статья ни в коем случае не является призывом к чему бы то ни было, 
-но если больше никак, то можно и так 
-Информация опубликована в ознакомительных целях
+````markdown
+```c++
+code code code
+```
+````
+
+```c++
+int main(int argc, char const \*argv[])
+{
+    string myString;
+
+    cout << "input a string: ";
+    getline(cin, myString);
+    int length = myString.length();
+
+    char charArray = new char * [length];
+
+    charArray = myString;
+    for(int i = 0; i < length; ++i){
+        cout << charArray[i] << " ";
+    }
+
+    return 0;
+}
+```
+
+For displaying code in a list item, you have to be aware of the indentation, as stated in [this FAQ](https://github.com/planetjekyll/quickrefs/blob/master/FAQ.md#q-how-can-i-get-backtick-fenced-code-blocks-eg--working-inside-lists-with-kramdown). You must indent your code by **(3 \* bullet_indent_level)** spaces. This is because kramdown (the markdown engine used by Jekyll) indentation for the code block in lists is determined by the column number of the first non-space character after the list item marker. For example:
+
+````markdown
+1. We can put fenced code blocks inside nested bullets, too.
+
+   1. Like this:
+
+      ```c
+      printf("Hello, World!");
+      ```
+
+   2. The key is to indent your fenced block in the same line as the first character of the line.
+````
+
+Which displays:
+
+1. We can put fenced code blocks inside nested bullets, too.
+
+   1. Like this:
+
+      ```c
+      printf("Hello, World!");
+      ```
+
+   2. The key is to indent your fenced block in the same line as the first character of the line.
+
+By default, it does not display line numbers. If you want to display line numbers for every code block, you can set `kramdown.syntax_highlighter_opts.block.line_numbers` to true in your `_config.yml` file.
+
+If you want to display line numbers for a specific code block, all you have to do is wrap your code in a liquid tag:
+
+{% raw %}
+{% highlight c++ linenos %} <br/> code code code <br/> {% endhighlight %}
+{% endraw %}
+
+The keyword `linenos` triggers display of line numbers.
+Produces something like this:
+
+{% highlight c++ linenos %}
+
+int main(int argc, char const \*argv[])
+{
+string myString;
+
+    cout << "input a string: ";
+    getline(cin, myString);
+    int length = myString.length();
+
+    char charArray = new char * [length];
+
+    charArray = myString;
+    for(int i = 0; i < length; ++i){
+        cout << charArray[i] << " ";
+    }
+
+    return 0;
+
+}
+
+{% endhighlight %}
