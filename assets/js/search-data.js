@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/site/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-installing-nanocad-without-an-installer",
+        
+          title: "Installing Nanocad Without An Installer",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/site/blog/2025/installing-nanocad-without-an-installer/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
