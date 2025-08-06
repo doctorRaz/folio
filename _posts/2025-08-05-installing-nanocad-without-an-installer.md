@@ -1,7 +1,7 @@
 ---
 layout: post
-title: test
-date: 2025-07-15 15:09:00
+title: nanoCAD. Установка без инсталлятора
+date: 2025-08-05 15:09:00
 description: proba
 tags: formatting code
 categories: sample-posts
