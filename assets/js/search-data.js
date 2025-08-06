@@ -83,6 +83,17 @@ ninja.data = [{
             window.location.href = "/folio/blog/2025/installing-nanocad-without-an-installer/";
           
         },
+      },{id: "post-test-tables-post",
+        
+          title: "Test Tables post",
+        
+        description: "an example of how to use Bootstrap Tables",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/folio/blog/2025/tables-new/";
+          
+        },
       },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
