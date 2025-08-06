@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/folio/blog/";
               },
-            },{id: "post-test",
+            },{id: "post-new-post",
+        
+          title: "New Post",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/folio/blog/2025/new-post/";
+          
+        },
+      },{id: "post-test",
         
           title: "test",
         
