@@ -83,11 +83,11 @@ ninja.data = [{
             window.location.href = "/folio/blog/2025/new-post/";
           
         },
-      },{id: "post-test",
+      },{id: "post-1000-post-with-vega-lite",
         
-          title: "Test",
+          title: "1000 post with vega lite",
         
-        description: "",
+        description: "this is what included vega lite code could look like",
         section: "Posts",
         handler: () => {
           
