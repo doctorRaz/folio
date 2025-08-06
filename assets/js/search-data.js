@@ -83,6 +83,17 @@ ninja.data = [{
             window.location.href = "/folio/blog/2025/new-post/";
           
         },
+      },{id: "post-nanocad-установка-без-инсталлятора",
+        
+          title: "nanoCAD. Установка без инсталлятора",
+        
+        description: "proba",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/folio/blog/2025/installing-nanocad-without-an-installer/";
+          
+        },
       },{id: "post-1000-post-with-vega-lite",
         
           title: "1000 post with vega lite",
@@ -92,17 +103,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/folio/blog/2025/test/";
-          
-        },
-      },{id: "post-test",
-        
-          title: "test",
-        
-        description: "proba",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/folio/blog/2025/installing-nanocad-without-an-installer/";
           
         },
       },{id: "post-test-tables-post",
