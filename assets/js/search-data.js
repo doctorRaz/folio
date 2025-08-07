@@ -72,51 +72,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/folio/blog/";
               },
-            },{id: "post-new-post",
-        
-          title: "New Post",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/folio/blog/2025/new-post/";
-          
-        },
-      },{id: "post-nanocad-установка-без-инсталлятора",
-        
-          title: "nanoCAD. Установка без инсталлятора",
-        
-        description: "proba",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/folio/blog/2025/installing-nanocad-without-an-installer/";
-          
-        },
-      },{id: "post-1000-post-with-vega-lite",
-        
-          title: "1000 post with vega lite",
-        
-        description: "this is what included vega lite code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/folio/blog/2025/test/";
-          
-        },
-      },{id: "post-test-tables-post",
-        
-          title: "Test Tables post",
-        
-        description: "an example of how to use Bootstrap Tables",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/folio/blog/2025/tables-new/";
-          
-        },
-      },{id: "post-a-post-with-plotly-js",
+            },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
