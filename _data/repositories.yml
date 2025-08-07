@@ -1,9 +1,14 @@
 github_users:
-  - kpblc2000  
-  - doctorraz
+  - torvalds
+  - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
-  - doctorraz/site
-  - doctorraz/MenuFilesGen
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - twbs/bootstrap
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - mathjax/MathJax
+  - jpswalsh/academicons
